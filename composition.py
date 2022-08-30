@@ -2,7 +2,7 @@ class salary:
     def __init__(self,pay,bonus):
         self.pay=pay
         self.bonus=bonus
-    def annual_salary(self):
+    def annually_salary(self):
         return self.pay*12+self.pay
 class Employee:
     def __init__(self,name,age,pay,bonus):
